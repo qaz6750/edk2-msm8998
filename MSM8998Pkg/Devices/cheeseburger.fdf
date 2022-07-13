@@ -27,12 +27,12 @@
 
 [FD.MSM8998Pkg_UEFI]
 BaseAddress   = 0xd0000000|gArmTokenSpaceGuid.PcdFdBaseAddress  # The base address of the Firmware in NOR Flash.
-Size          = 0x00200000|gArmTokenSpaceGuid.PcdFdSize         # The size in bytes of the FLASH Device
+Size          = 0x01000000|gArmTokenSpaceGuid.PcdFdSize         # The size in bytes of the FLASH Device
 ErasePolarity = 1
 
 # This one is tricky, it must be: BlockSize * NumBlocks = Size
 BlockSize     = 0x00001000
-NumBlocks     = 0x200
+NumBlocks     = 0x1000
 
 ################################################################################
 #
@@ -69,7 +69,7 @@ DATA = {
   0x00, 0x00, 0x00, 0x00                          # res5
 }
 
-0x00008000|0x001f8000
+0x00008000|0xff8000
 gArmTokenSpaceGuid.PcdFvBaseAddress|gArmTokenSpaceGuid.PcdFvSize
 FV = FVMAIN_COMPACT
 
@@ -257,6 +257,16 @@ APRIORI DXE {
     #
     INF MSM8998Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
     INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
+
+    FILE APPLICATION = 6D77B2BB-69EB-42AB-BECF-4F40C89568C3 {
+    SECTION PE32 = MSM8998Pkg/applications/SimpleInitMain/SimpleInitMain.efi
+    SECTION UI = "SimpleInitMain"
+    }
+
+    FILE DRIVER = F1249C4E-8995-4BB6-9D44-E0CD4FF709FC {
+    SECTION PE32 = MSM8998Pkg/Devices_Binary/KernelFdtDxe/KernelFdtDxe.efi
+    SECTION UI = "KernelFdtDxe"
+    }
 
     #
     # UEFI applications
