@@ -75795,7 +75795,7 @@ DefinitionBlock ("", "DSDT", 2, "QCOMM ", "MSM8998 ", 0x00000003)
         Device (SSDD)
         {
             Name (_HID, "QCOM00D6")  // _HID: Hardware ID
-            Name (_SUB, "WOSSTD01")  // _SUB: Subsystem ID
+            Alias (\_SB.PSUB, _SUB)
             Name (_DEP, Package (0x02)  // _DEP: Dependencies
             {
                 \_SB.GLNK, 
