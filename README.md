@@ -5,7 +5,7 @@
 - 中国人请看中文版[Chinese version (中文版)](https://github.com/qaz6750/edk2-msm8998/blob/master/README.zh.md)
 
 ## Problem
-- Qcsubsys driver does not work
+- The qcsusys driver does not work completely. Only ssdd can be installed, and other devices such as AMSS cannot be provided
 
 ## Resources
 
