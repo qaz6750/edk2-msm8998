@@ -1,11 +1,17 @@
 # EDK2 UEFI Firmware For Snapdragon 835 (msm8998)
 
-A broken but working EDK2 implementation for Snapdragon 835 platform.
+- A broken but working EDK2 implementation for Snapdragon 835 platform.
+- This Repo Is Based On [Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)
+- 中国人请看中文版[Chinese version (中文版)](https://github.com/qaz6750/edk2-msm8998/blob/master/README.zh.md)
 
-中国人请看中文版
-[Chinese version (中文版)](https://github.com/edk2-porting/edk2-msm8998/blob/master/README.zh.md)
+## Problem
+- Qcsubsys driver does not work
 
 ## Resources
+
+[Project website](https://renegade-project.org/)
+
+[Project forum](https://forum.renegade-project.org/)
 
 [Telegram group (recommended)](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA)
 
@@ -13,24 +19,20 @@ A broken but working EDK2 implementation for Snapdragon 835 platform.
 
 QQ chinese group: 697666196 (Main group, full)  996450026 (Second group)  737223105 (Linux/edk2)
 
-[Project website](https://renegade-project.org/)
-
-[Project forum](https://forum.renegade-project.org/)
-
 ## WARNING
 
-**DO NOT EVER TRY TO PORT IT TO *SONY, SAMSUNG* DEVICES**
+- **DO NOT EVER TRY TO PORT IT TO *SONY, SAMSUNG* DEVICES**
 
-**YOUR UFS WILL BE WIPED CLEAN!!!**
+- **YOUR UFS WILL BE WIPED CLEAN!!!**
 
 ## Supported devices
 
-1. Moto Z2 Force (nash)
-2. Xiaomi Mi Mix 2   (chiron) 
-3. Xiaomi Mi6    (sagit)
-4. LG V30        (joan)
-5. OnePlus 5T   (dumpling)
-6. OnePlus 5    (cheeseburger)
+-  OnePlus 5    (cheeseburger)
+-  OnePlus 5T   (dumpling)
+-  Xiaomi Mi6    (sagit)
+-  Xiaomi Mi Mix 2   (chiron) 
+-  LG V30        (joan)
+-  Moto Z2 Force (nash)
 
 ## Supported devices
 
@@ -53,7 +55,7 @@ sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu ab
 1.Clone this project 
 
 ```bash
-git clone https://github.com/edk2-porting/edk2-msm8998.git --depth=1
+git clone https://github.com/qaz6750/edk2-msm8998.git --depth=1
 cd edk2-msm8998
 ```
 
@@ -72,6 +74,3 @@ fastboot boot boot_DEVICE.img
 (DEVICE is the codename of your phone.)
 
 ## Credits
-
-
-

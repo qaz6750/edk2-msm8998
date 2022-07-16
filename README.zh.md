@@ -1,31 +1,31 @@
 # 骁龙835(MSM8998)的EDK2 UEFI固件
 
-**在编译该项目前，请确定你有一定的Linux常识，以下步骤已经是最简单的方法，如果你看不懂，那么请使用Releases中的编译成品**
+- **在编译该项目前，请确定你有一定的Linux常识，以下步骤已经是最简单的方法，如果你看不懂，那么请使用Releases中的编译成品**
+- **此存储库基于[Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)**
 
 ## 资源
+
+[项目官网](https://renegade-project.org/)
+
+[项目论坛](https://forum.renegade-project.org/)
 
 [Telegram英语交流群](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA)
 
 [Discord英语交流群](https://discord.gg/XXBWfag)
 
 QQ中文交流群: 
-
 主群：697666196 (已满，人数小于1900后开放)  
 二群：996450026        
 摸鱼专用群：737223105（需具有一定知识储备并正确回答入群问题）     
 情感交流群：991796138（仅限邀请）       
 核心管理群：766060878（暂不开放）
 
-[项目官网](https://renegade-project.org/)
-
-[项目论坛](https://forum.renegade-project.org/)
-
 
 ## 警告
 
-**请勿尝试移植到任何索尼和谷歌设备上**
+- **请勿尝试移植到任何索尼和谷歌设备上**
 
-**你的UFS会被清空!!!**
+- **你的UFS会被清空!!!**
 
 ## 已支持的设备
 1. 摩托罗拉 Z2 Force  (nash)
@@ -33,6 +33,7 @@ QQ中文交流群:
 3. 小米 Mi6          (sagit)
 4. LG V30            (joan)
 5. 一加5t             (dumpling)
+6 一加5             (cheeseburger)
 
 ## 依赖
 
@@ -51,7 +52,7 @@ sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu ab
 1.克隆此项目（默认使用国内fastgit镜像加速）
 
 ```bash
-git clone https://hub.fastgit.org/edk2-porting/edk2-msm8998.git --depth=1
+git clone https://hub.fastgit.org/qaz6750/edk2-msm8998.git --depth=1
 cd edk2-msm8998
 ```
 
