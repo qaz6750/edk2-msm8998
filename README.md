@@ -1,11 +1,12 @@
 # EDK2 UEFI Firmware For Snapdragon 835 (msm8998)
 
 - A broken but working EDK2 implementation for Snapdragon 835 platform.
-- This Repo Is Based On [Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)
+- This Repo Is Based On [（edk2-porting）Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)
 - 中国人请看中文版[Chinese version (中文版)](https://github.com/qaz6750/edk2-msm8998/blob/master/README.zh.md)
 
 ## Problem
-- The qcsusys driver does not work completely. Only ssdd can be installed, and other devices such as AMSS cannot be provided
+- First of all, we need to solve the problem of entering Qualcomm 900e when installing AMSS driven by qcsubsys
+- The repair of the battery will be tried later
 
 ## Resources
 
