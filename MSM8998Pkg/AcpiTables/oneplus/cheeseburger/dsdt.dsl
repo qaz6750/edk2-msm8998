@@ -88756,14 +88756,6 @@ DefinitionBlock ("", "DSDT", 2, "QCOMM ", "MSM8998 ", 0x00000003)
             })
         }
 
-        Device (AMW2)
-        {
-            Name (_HID, "ASUS7000")  // _HID: Hardware ID
-            Name (_UID, "7000")  // _UID: Unique ID
-        }
-
-
-
         Scope (\_SB)
         {
             Device (LSID)
