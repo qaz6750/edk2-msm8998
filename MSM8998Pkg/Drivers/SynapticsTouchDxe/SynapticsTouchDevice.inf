@@ -1,0 +1,56 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SynapticsTouchDeviceDxe
+  FILE_GUID                      = f0d87c5e-4d5d-4fb5-939f-a6768ae8a310
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = SynaDeviceInitialize
+
+[Sources.common]
+  SynapticsTouchDevice.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  EmbeddedPkg/EmbeddedPkg.dec
+  MSM8998Pkg/MSM8998Pkg.dec
+
+[BuildOptions.AARCH64]
+  GCC:*_*_*_CC_FLAGS = -Werror -Wno-error=unused-variable
+
+[LibraryClasses]
+  ArmLib
+  UefiDriverEntryPoint
+  IoLib
+  TimerLib
+  BaseLib
+  DebugLib
+  PrintLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+  UefiLib
+
+[Pcd]
+  gMSM8998PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
+  gMSM8998PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrAddress
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrResetPin
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrIntPin
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrI2cDevice
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMinX
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMaxX
+  gMSM8998PkgTokenSpaceGuid.PcdTouchInvertedX
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMinY
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMaxY
+  gMSM8998PkgTokenSpaceGuid.PcdTouchInvertedY
+
+[Protocols]
+  gQcomI2cProtocolGuid
+  gQcomTlmmProtocolGuid
+  gHardwareInterruptProtocolGuid
+  gSynapticsTouchDeviceProtocolGuid
+  gEfiDevicePathProtocolGuid
+
+[Depex]
+  gQcomI2cProtocolGuid AND gQcomTlmmProtocolGuid
+

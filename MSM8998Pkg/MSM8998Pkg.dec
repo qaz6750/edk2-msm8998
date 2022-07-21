@@ -51,3 +51,14 @@
   gMSM8998PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2560|UINT32|0x0000a405
   # RTC information
   gMSM8998PkgTokenSpaceGuid.PcdBootShimInfo1|0xaf000000|UINT64|0x00000a601
+  # Touch Screen
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrAddress|0|UINT16|0x0000a501
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrResetPin|0|UINT32|0x0000a502
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrIntPin|0|UINT32|0x0000a503
+  gMSM8998PkgTokenSpaceGuid.PcdTouchCtlrI2cDevice|0|UINT32|0x0000a504
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMinX|0|UINT32|0x0000a505
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMaxX|0|UINT32|0x0000a506
+  gMSM8998PkgTokenSpaceGuid.PcdTouchInvertedX|FALSE|BOOLEAN|0x0000a507
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMinY|0|UINT32|0x0000a508
+  gMSM8998PkgTokenSpaceGuid.PcdTouchMaxY|0|UINT32|0x0000a509
+  gMSM8998PkgTokenSpaceGuid.PcdTouchInvertedY|FALSE|BOOLEAN|0x0000a50a

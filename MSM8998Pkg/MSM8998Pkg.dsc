@@ -325,3 +325,7 @@
 !ifdef $(INCLUDE_TFTP_COMMAND)
   ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf
 !endif #$(INCLUDE_TFTP_COMMAND)
+
+  MSM8998Pkg/Drivers/SynapticsTouchDxe/SynapticsTouchDevice.inf
+  MSM8998Pkg/Drivers/SynapticsTouchDxe/SynapticsTouchDxe.inf
+
