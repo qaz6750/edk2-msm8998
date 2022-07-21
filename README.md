@@ -4,9 +4,12 @@
 - This Repo Is Based On [（edk2-porting）Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)
 - 中国人请看中文版[Chinese version (中文版)](https://github.com/qaz6750/edk2-msm8998/blob/master/README.zh.md)
 
+## Doing
+- Repair Synaptics touchscreen in edk2 to better use simpleinit
+- Still trying to repair subsys in Windows
+
 ## Problem
-- First of all, we need to solve the problem of entering Qualcomm 900e when installing AMSS driven by qcsubsys
-- The repair of the battery will be tried later
+- Unable to repair subsys (AMSS), I cannot solve the problem of entering Qualcomm 900e in the installation driver
 
 ## Resources
 
@@ -23,7 +26,6 @@ QQ chinese group: 697666196 (Main group, full)  996450026 (Second group)  737223
 ## WARNING
 
 - **DO NOT EVER TRY TO PORT IT TO *SONY, SAMSUNG* DEVICES**
-
 - **YOUR UFS WILL BE WIPED CLEAN!!!**
 
 ## Supported devices
@@ -73,5 +75,3 @@ fastboot boot boot_DEVICE.img
 ```
 
 (DEVICE is the codename of your phone.)
-
-## Credits
