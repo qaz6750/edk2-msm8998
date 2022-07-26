@@ -258,7 +258,7 @@ APRIORI DXE {
     #
     # SMBIOS Support
     #
-    INF MSM8998Pkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
+    INF MSM8998Pkg/Drivers/PlatformSmbiosDxe/PlatformSmbiosDxe.inf
     INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
 
     #
