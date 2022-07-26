@@ -21,3 +21,7 @@
 
   # RTC information
   gMSM8998PkgTokenSpaceGuid.PcdBootShimInfo1|0xaf000000|UINT64|0x00000a601
+
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceVendor|"Xiaomi"
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"MIX2"
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceCodeName|"chiron"

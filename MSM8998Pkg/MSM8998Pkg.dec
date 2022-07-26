@@ -62,3 +62,8 @@
   gMSM8998PkgTokenSpaceGuid.PcdTouchMinY|0|UINT32|0x0000a508
   gMSM8998PkgTokenSpaceGuid.PcdTouchMaxY|0|UINT32|0x0000a509
   gMSM8998PkgTokenSpaceGuid.PcdTouchInvertedY|FALSE|BOOLEAN|0x0000a50a
+
+    # Device Info
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceVendor|"Qualcomm"|VOID*|0x0000a301
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"Snapdragon 835 Device"|VOID*|0x0000a302
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceCodeName|"sdm835"|VOID*|0x0000a303
