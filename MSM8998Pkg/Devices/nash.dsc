@@ -23,5 +23,5 @@
   gMSM8998PkgTokenSpaceGuid.PcdBootShimInfo1|0xaf000000|UINT64|0x00000a601
 
   gMSM8998PkgTokenSpaceGuid.PcdDeviceVendor|"Moto"
-  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"Z2 Force"
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"Moto Z2 Force(nash)"
   gMSM8998PkgTokenSpaceGuid.PcdDeviceCodeName|"nash"

@@ -22,5 +22,5 @@
   gMSM8998PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
 
   gMSM8998PkgTokenSpaceGuid.PcdDeviceVendor|"Oneplus"
-  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"5"
+  gMSM8998PkgTokenSpaceGuid.PcdDeviceProduct|"Oneplus 5(cheeseburger)"
   gMSM8998PkgTokenSpaceGuid.PcdDeviceCodeName|"cheeseburger"
