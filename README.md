@@ -9,7 +9,7 @@
 - Still trying to repair subsys in Windows
 
 ## Problem
-- Unable to repair subsys (AMSS), I cannot solve the problem of entering Qualcomm 900e in the installation driver
+- Subsys is now installed, causing a blue screen, which fixes the problem of entering 900e,Thank AKAsaliza
 
 ## Resources
 
