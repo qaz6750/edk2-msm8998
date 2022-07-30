@@ -75,3 +75,14 @@ fastboot boot boot_DEVICE.img
 ```
 
 (DEVICE is the codename of your phone.)
+
+## Acknowledgements
+
+- [Renegade Project](https://github.com/edk2-porting/)
+- [AKAsaliza](https://github.com/AKAsaliza)
+- [degdag](https://github.com/degdag)
+- [lumingyu0423](https://github.com/lumingyu0423)
+- [Xpsoted](https://github.com/Xpsoted)
+- [UsedNametag](https://github.com/UsedNametag)
+- [5-Super-Rookie-5](https://github.com/5-Super-Rookie-5)
+- [musabcel](https://github.com/musabcel)
