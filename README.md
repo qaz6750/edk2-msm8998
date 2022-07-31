@@ -3,13 +3,14 @@
 - A broken but working EDK2 implementation for Snapdragon 835 platform.
 - This Repo Is Based On [（edk2-porting）Edk2-Msm8998](https://github.com/edk2-porting/edk2-msm8998)
 - 中国人请看中文版[Chinese version (中文版)](https://github.com/qaz6750/edk2-msm8998/blob/master/README.zh.md)
+- Thanks for AKAsaliza's instructions!
 
 ## Doing
-- Repair Synaptics touchscreen in edk2 to better use simpleinit
-- Still trying to repair subsys in Windows
+- Repair Synaptics touchscreen in edk2 to better use simpleinit（Be of no great importance）
+- Repair WiFi, AMSS, qcpil
 
 ## Problem
-- Subsys is now installed, causing a blue screen, which fixes the problem of entering 900e,Thank AKAsaliza
+- 1.WiFi cannot be started. We should debug and modify more things
 
 ## Resources
 
